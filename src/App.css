@@ -40,3 +40,37 @@
 .read-the-docs {
   color: #888;
 }
+
+.tree {
+  text-align: left;
+}
+
+.tree li {
+  list-style-type: none;
+}
+
+.tree button {
+  background-color: transparent;
+  border: none;
+}
+
+.tree button,
+.tree p {
+  padding: 0;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.tree button:hover {
+  color: tomato;
+}
+
+.tree button:focus,
+.tree button:focus-visible {
+  outline: none;
+}
+
+.tree button span {
+  margin-right: 0.5rem;
+  margin-left: -1rem;
+}
